@@ -7,10 +7,10 @@ location: "Toronto"
 date: 2026-08-18
 read_time: 6
 issue: "029"
-# Optional lead photograph (put the file in assets/articles/):
-# image: /assets/articles/photo-name.jpg
-# image_alt: "Describe the photograph for someone who cannot see it."
-# caption: "A short caption. Photograph by Name."
+# Optional lead illustration (put the SVG in assets/articles/):
+# image: /assets/articles/article-name.svg
+# image_alt: "Describe the illustration for someone who cannot see it."
+# caption: "A short caption. Illustration for Daily Hollaren."
 ---
 
 Your opening paragraph goes here. It will automatically begin with a large drop cap, like a magazine or newspaper feature.

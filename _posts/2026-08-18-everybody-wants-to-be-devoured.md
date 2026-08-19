@@ -8,9 +8,9 @@ date: 2026-08-18
 read_time: 5
 issue: "001"
 permalink: /articles/everybody-wants-to-be-devoured/
-image: /assets/articles/everybody-wants-to-be-devoured.png
-image_alt: "A heavy-music quartet performing under red lights in a crowded Toronto basement venue."
-caption: "Black Chapel turns another Toronto basement into a private catastrophe. Daily Hollaren editorial image."
+image: /assets/articles/everybody-wants-to-be-devoured.svg
+image_alt: "An editorial cartoon of Black Chapel performing as a crowd surges toward the stage in a Toronto basement."
+caption: "Black Chapel turns another Toronto basement into a private catastrophe. Illustration for Daily Hollaren."
 ---
 
 Black Chapel's latest tour evokes fire and brimstone southern breachers while wearing the aesthetics of demon worship. As they scream "everybody wants to be devoured" the crowd erupts in a wave of ecstatic glee. If one believed in such things, you might think the crowds shouting their lyrics were literally summoning undead creatures into existence.

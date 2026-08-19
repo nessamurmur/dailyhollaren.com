@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900" role="img" aria-labelledby="title desc">
+  <title id="title">Black Chapel performs in a Toronto basement</title>
+  <desc id="desc">Wide editorial cartoon of a four-piece heavy band playing beneath basement pipes while an ecstatic crowd reaches toward the stage.</desc>
+  <defs>
+    <pattern id="grain" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="5" r="1.2" fill="#eae4d8" opacity=".15"/>
+      <circle cx="15" cy="12" r="1" fill="#191615" opacity=".18"/>
+      <path d="M-3 18L18-3M8 24L24 8" stroke="#eae4d8" stroke-width=".8" opacity=".06"/>
+    </pattern>
+    <filter id="rough" x="-6%" y="-6%" width="112%" height="112%">
+      <feTurbulence baseFrequency=".012" numOctaves="2" seed="19" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+    </filter>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#eae4d8"/>
+      <stop offset=".46" stop-color="#d48c90"/>
+      <stop offset="1" stop-color="#bd2b2d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1800" height="900" fill="#bd2b2d"/>
+  <path d="M0 0H1800V185Q1500 141 1200 190T600 168T0 211Z" fill="#191615"/>
+  <path d="M0 0V900H355L674 0ZM1800 0V900H1470L1180 0Z" fill="#173c35" opacity=".68"/>
+  <circle cx="906" cy="340" r="310" fill="url(#glow)"/>
+  <rect width="1800" height="900" fill="url(#grain)"/>
+
+  <g fill="none" stroke="#eae4d8" stroke-linecap="round" opacity=".65">
+    <path d="M-40 74H433Q485 74 485 126V190" stroke-width="29"/>
+    <path d="M1840 96H1453Q1398 96 1398 151V211" stroke-width="20"/>
+    <path d="M560 0V151M1260 0V167" stroke-width="16"/>
+  </g>
+
+  <g filter="url(#rough)" stroke="#191615" stroke-linecap="round" stroke-linejoin="round">
+    <!-- drummer -->
+    <circle cx="930" cy="368" r="62" fill="#d48c90" stroke-width="13"/>
+    <path d="M868 360Q906 270 986 328Q1021 355 992 404Q970 354 930 390Q897 418 868 360Z" fill="#191615" stroke-width="8"/>
+    <path d="M868 439Q930 406 996 449L1028 609H839Z" fill="#173c35" stroke-width="14"/>
+    <path d="M873 460L777 364M990 459L1082 339" fill="none" stroke-width="15"/>
+    <path d="M756 347L802 381M1060 357L1101 322" fill="none" stroke="#eae4d8" stroke-width="8"/>
+    <ellipse cx="923" cy="639" rx="132" ry="110" fill="#eae4d8" stroke-width="16"/>
+    <ellipse cx="923" cy="639" rx="82" ry="68" fill="#bd2b2d" stroke-width="10"/>
+    <path d="M759 505H1088M748 505L718 696M1098 505L1126 696" fill="none" stroke-width="12"/>
+    <ellipse cx="755" cy="497" rx="104" ry="23" fill="#d48c90" stroke-width="10"/>
+    <ellipse cx="1083" cy="497" rx="109" ry="23" fill="#d48c90" stroke-width="10"/>
+
+    <!-- vocalist -->
+    <circle cx="650" cy="334" r="69" fill="#d48c90" stroke-width="14"/>
+    <path d="M584 347Q572 236 661 246Q741 259 718 371Q672 310 621 381Z" fill="#191615" stroke-width="8"/>
+    <path d="M606 412Q648 385 697 421L744 675H561Z" fill="#191615" stroke-width="15"/>
+    <path d="M608 437Q521 486 458 413" fill="none" stroke-width="22"/>
+    <circle cx="451" cy="406" r="25" fill="#d48c90" stroke-width="10"/>
+    <path d="M437 389L390 349" fill="none" stroke-width="11"/>
+    <path d="M620 350Q651 367 680 345" fill="none" stroke="#bd2b2d" stroke-width="7"/>
+
+    <!-- guitarist -->
+    <circle cx="1262" cy="340" r="63" fill="#d48c90" stroke-width="14"/>
+    <path d="M1198 353Q1180 251 1266 260Q1348 273 1328 374Q1280 319 1226 391Z" fill="#191615" stroke-width="9"/>
+    <path d="M1218 415Q1261 390 1308 423L1366 684H1162Z" fill="#173c35" stroke-width="15"/>
+    <path d="M1206 443L1098 582M1312 444L1479 351" fill="none" stroke-width="19"/>
+    <path d="M1090 545Q1167 504 1226 566L1179 687Q1097 723 1040 652Z" fill="#d48c90" stroke-width="15"/>
+    <path d="M1185 586L1520 329" fill="none" stroke="#191615" stroke-width="27"/>
+    <path d="M1484 357L1542 300M1498 367L1562 324" fill="none" stroke-width="8"/>
+    <path d="M1241 686L1198 829M1309 686L1372 829" fill="none" stroke-width="26"/>
+
+    <!-- bassist -->
+    <circle cx="351" cy="395" r="55" fill="#d48c90" stroke-width="13"/>
+    <path d="M298 406Q292 316 365 325Q431 338 408 425Q370 380 326 441Z" fill="#191615" stroke-width="8"/>
+    <path d="M315 457Q350 433 389 464L425 678H278Z" fill="#173c35" stroke-width="14"/>
+    <path d="M320 483L210 594M388 484L536 379" fill="none" stroke-width="17"/>
+    <path d="M194 574Q259 538 310 591L269 694Q202 720 157 661Z" fill="#eae4d8" stroke-width="14"/>
+    <path d="M275 607L561 354" fill="none" stroke-width="23"/>
+    <path d="M314 676L279 824M384 676L433 824" fill="none" stroke-width="24"/>
+  </g>
+
+  <!-- stage and wreckage -->
+  <path d="M0 710Q332 667 660 706T1260 700T1800 714V900H0Z" fill="#191615"/>
+  <g fill="none" stroke="#d48c90" stroke-width="13" stroke-linecap="round">
+    <path d="M80 784L239 745L278 838M1434 751L1588 802L1719 746M1011 783L1138 742L1181 827"/>
+  </g>
+
+  <!-- crowd -->
+  <g fill="#191615" stroke="#bd2b2d" stroke-width="8" stroke-linejoin="round">
+    <path d="M0 900V754Q65 685 132 760L158 900Z"/>
+    <path d="M112 900L153 709Q217 645 276 725L304 900Z"/>
+    <path d="M268 900L330 746Q403 670 464 754L489 900Z"/>
+    <path d="M438 900L484 698Q550 624 615 708L647 900Z"/>
+    <path d="M610 900L675 754Q746 674 817 759L849 900Z"/>
+    <path d="M797 900L845 717Q916 635 989 728L1017 900Z"/>
+    <path d="M983 900L1044 760Q1123 669 1193 759L1224 900Z"/>
+    <path d="M1194 900L1239 718Q1313 637 1382 730L1414 900Z"/>
+    <path d="M1382 900L1437 752Q1507 672 1574 756L1602 900Z"/>
+    <path d="M1564 900L1616 714Q1693 626 1760 729L1800 900Z"/>
+  </g>
+  <g fill="none" stroke="#191615" stroke-width="23" stroke-linecap="round">
+    <path d="M196 738L134 594M207 730L272 566M509 708L473 538M522 702L594 550M889 720L842 541M904 716L965 525M1290 719L1238 537M1305 711L1381 548M1671 714L1630 531M1687 709L1752 552"/>
+  </g>
+  <g fill="#d48c90" stroke="#191615" stroke-width="8">
+    <circle cx="132" cy="588" r="24"/><circle cx="278" cy="558" r="24"/><circle cx="470" cy="532" r="24"/><circle cx="600" cy="544" r="24"/><circle cx="838" cy="535" r="24"/><circle cx="971" cy="519" r="24"/><circle cx="1234" cy="531" r="24"/><circle cx="1387" cy="541" r="24"/><circle cx="1626" cy="525" r="24"/><circle cx="1758" cy="546" r="24"/>
+  </g>
+
+  <rect width="1800" height="900" fill="url(#grain)" pointer-events="none"/>
+</svg>

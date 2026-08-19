@@ -1,6 +1,6 @@
 .cover-image {
   background-color: var(--red);
-  background-image: linear-gradient(90deg, rgba(25, 22, 21, .08), rgba(25, 22, 21, .02)), url('/assets/articles/everybody-wants-to-be-devoured.png');
+  background-image: linear-gradient(90deg, rgba(25, 22, 21, .08), rgba(25, 22, 21, .02)), url('/assets/articles/everybody-wants-to-be-devoured.svg');
   background-position: center;
   background-size: cover;
 }
@@ -14,4 +14,16 @@
 .cover-image p {
   z-index: 2;
   text-shadow: 0 1px 10px #000;
+}
+
+.story-list a.list-story {
+  color: inherit;
+  text-decoration: none;
+  transition: color 160ms ease, padding-left 160ms ease;
+}
+
+.story-list a.list-story:hover,
+.story-list a.list-story:focus-visible {
+  color: var(--red);
+  padding-left: 8px;
 }

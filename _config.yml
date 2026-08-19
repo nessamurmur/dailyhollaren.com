@@ -1,0 +1,22 @@
+title: Daily Hollaren
+description: Criticism, dispatches, and after-hours culture from Toronto and beyond.
+url: https://dailyhollaren.com
+permalink: /articles/:title/
+timezone: America/Toronto
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      author: Francie Hollaren
+
+exclude:
+  - README.md
+  - ARTICLE_TEMPLATE.md
+  - Gemfile
+  - Gemfile.lock
+  - bin
+  - vendor

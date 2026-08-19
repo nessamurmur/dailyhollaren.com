@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+set -eu
+
+if ! command -v bundle >/dev/null 2>&1; then
+  echo "Bundler is not installed. Follow the Local preview setup in README.md first." >&2
+  exit 1
+fi
+
+bundle config set --local path vendor/bundle
+bundle check >/dev/null 2>&1 || bundle install
+
+exec bundle exec jekyll serve \
+  --livereload \
+  --host 127.0.0.1 \
+  --port "${DAILY_HOLLAREN_PORT:-4000}"

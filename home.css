@@ -1,0 +1,17 @@
+.cover-image {
+  background-color: var(--red);
+  background-image: linear-gradient(90deg, rgba(25, 22, 21, .08), rgba(25, 22, 21, .02)), url('/assets/articles/everybody-wants-to-be-devoured.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.cover-image .sun,
+.cover-image .guitarist,
+.cover-image .light-beam {
+  display: none;
+}
+
+.cover-image p {
+  z-index: 2;
+  text-shadow: 0 1px 10px #000;
+}
